@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="cmdmemo.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="54" Y="8"/>
+        <UsageCount Value="38"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/sysutils/filutilh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="170"/>
+        <CursorPos X="20" Y="200"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/lib/fpc/src/rtl/unix/sysutils.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1557"/>
+        <CursorPos X="10" Y="1581"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/sysutils/osutilsh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos X="10" Y="44"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/sysutils/osutil.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="74"/>
+        <CursorPos X="10" Y="98"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/lib/fpc/src/rtl/inc/systemh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1645"/>
+        <CursorPos X="11" Y="1336"/>
+        <UsageCount Value="15"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/lib/fpc/src/packages/fcl-base/src/custapp.pp"/>
+        <UnitName Value="CustApp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="152"/>
+        <CursorPos X="193" Y="22"/>
+        <UsageCount Value="15"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/lib/fpc/src/packages/fcl-base/src/csvdocument.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="48"/>
+        <CursorPos X="54" Y="68"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/lib/fpc/src/packages/fcl-base/src/csvreadwrite.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="80"/>
+        <CursorPos X="36" Y="81"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/classes/classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2270"/>
+        <CursorPos X="24" Y="2316"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/lib/fpc/src/packages/rtl-objpas/src/inc/strutils.pp"/>
+        <UnitName Value="StrUtils"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="182"/>
+        <CursorPos X="82" Y="206"/>
+        <UsageCount Value="17"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/sysutils/sysstrh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="263"/>
+        <CursorPos X="78" Y="284"/>
+        <UsageCount Value="17"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/lib/fpc/src/rtl/inc/objpash.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="56"/>
+        <CursorPos X="8" Y="71"/>
+        <UsageCount Value="16"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/lib/fpc/src/rtl/inc/varianth.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="481"/>
+        <CursorPos X="10" Y="504"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="61" Column="23" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="24" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="169" Column="3" TopLine="139"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="164" Column="3" TopLine="144"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="27" Column="40" TopLine="6"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="185" Column="17" TopLine="166"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="163" Column="18" TopLine="131"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="145" Column="20" TopLine="121"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="147" Column="43" TopLine="124"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="140" Column="21" TopLine="109"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="129" Column="19" TopLine="104"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="194" Column="32" TopLine="164"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="133" TopLine="110"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="137" TopLine="110"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="138" TopLine="110"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="150" TopLine="128"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="152" TopLine="128"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="137" TopLine="128"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="138" TopLine="128"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="141" TopLine="128"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="196" TopLine="172"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="194" Column="28"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="196" Column="26" TopLine="177"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="137" TopLine="113"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="138" TopLine="113"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="141" TopLine="113"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="196" TopLine="172"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="261" TopLine="225"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="83" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="84" TopLine="60"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode="help">
+        <Mode Name="default"/>
+        <Mode Name="add">
+          <local>
+            <CommandLineParams Value="-a"/>
+          </local>
+        </Mode>
+        <Mode Name="wrong param">
+          <local>
+            <CommandLineParams Value="-v test"/>
+          </local>
+        </Mode>
+        <Mode Name="help">
+          <local>
+            <CommandLineParams Value="-h"/>
+          </local>
+        </Mode>
+        <Mode Name="list all">
+          <local>
+            <CommandLineParams Value="-l"/>
+          </local>
+        </Mode>
+        <Mode Name="list systemd">
+          <local>
+            <CommandLineParams Value="-l systemd"/>
+          </local>
+        </Mode>
+      </Modes>
+    </RunParams>
+    <HistoryLists>
+      <List Name="CommandLineParameters" Count="15">
+        <Item1 Value="-h"/>
+        <Item2 Value="-l"/>
+        <Item3 Value="-l systemd"/>
+        <Item4 Value="-a"/>
+        <Item5 Value="-v test"/>
+        <Item6 Value="-a test"/>
+        <Item7 Value="-a test -c testc -d testd"/>
+        <Item8 Value="-d testd"/>
+        <Item9 Value="-a test -d testd"/>
+        <Item10 Value="systemd"/>
+        <Item11 Value="-a "/>
+        <Item12 Value="-a test test -abc -d test"/>
+        <Item13 Value="aa"/>
+        <Item14 Value="pacman"/>
+        <Item15 Value="h"/>
+      </List>
+    </HistoryLists>
+  </ProjectSession>
+</CONFIG>
