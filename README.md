@@ -35,7 +35,9 @@ Examples:
   2) List command snippets from systemd category
   cmdmemo -l systemd
 
-  Name    | Command                  | Description
-  --------|--------------------------|--------------
-  systemd | systemctl --type=service | List services
+  ┌──────────────────────────────────────────────┐
+  │Command│Category                │Description  │
+  │───────│────────────────────────│─────────────│
+  │systemd│systemctl --type=service│List services│
+  └──────────────────────────────────────────────┘
 ```

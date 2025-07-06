@@ -27,8 +27,8 @@ type
   end;
 
   TRow = record
-    name: string;
     cmd: string;
+    cat: string;
     desc: string;
   end;
 
@@ -112,9 +112,11 @@ begin
   WriteLn('  Enter a description: List services'#13#10);
   WriteLn('  2) List command snippets from systemd category');
   WriteLn('  cmdmemo -l systemd'#13#10);
-  WriteLn('  Name    | Command                  | Description');
-  WriteLn('  --------|--------------------------|--------------');
-  WriteLn('  systemd | systemctl --type=service | List services');
+  WriteLn('  ┌──────────────────────────────────────────────┐');
+  WriteLn('  │Command|Category                |Description  |');
+  WriteLn('  │───────|────────────────────────|─────────────|');
+  WriteLn('  │systemd|systemctl --type=service|List services|');
+  WriteLn('  └──────────────────────────────────────────────┘');
 end;
 
 procedure TCmdMemo.WriteUsage;
@@ -191,7 +193,7 @@ var
   delimiter: TSysCharSet = [','];
   data: array of TRow;
   i: integer;
-  maxNameLen, maxCmdLen, maxDescLen: Integer;
+  maxCmdLen, maxCatLen, maxDescLen: Integer;
 begin
   // check for .conf file
   configFile := GetConfFile;
@@ -207,15 +209,15 @@ begin
     begin
       // load array
       ReadLn(F,Line);
-      Column1 := ExtractDelimited(1, Line, delimiter);
+      Column1 := ExtractDelimited(2, Line, delimiter);
 
       // If param is specified list only its entries
       if (paramL <> '') and (Pos(paramL, Column1) = 0) then
         Continue;
 
       SetLength(data, Length(data) + 1);
-      data[High(data)].name := ExtractDelimited(1, Line, delimiter);
-      data[High(data)].cmd  := ExtractDelimited(2, Line, delimiter);
+      data[High(data)].cmd  := ExtractDelimited(1, Line, delimiter);
+      data[High(data)].cat  := ExtractDelimited(2, Line, delimiter);
       data[High(data)].desc := ExtractDelimited(3, Line, delimiter);
     end;
   finally
@@ -230,37 +232,48 @@ begin
     Exit;
   end;
 
-  maxNameLen := 4;
   maxCmdLen := 7;
+  maxCatLen := 8;
   maxDescLen := 11;
 
   for i := Low(data) to High(data) do
   begin
-    if Length(data[i].name) > maxNameLen then
-      maxNameLen := Length(data[i].name);
-
     if Length(data[i].cmd) > maxCmdLen then
       maxCmdLen := Length(data[i].cmd);
+
+    if Length(data[i].cat) > maxCatLen then
+      maxCatLen := Length(data[i].cat);
 
     if Length(data[i].desc) > maxDescLen then
       maxDescLen := Length(data[i].desc);
   end;
 
   // print header
-  WriteLn('Name' + PadRight(' ', maxNameLen - 4) +
-          ' | Command' + PadRight(' ', maxCmdLen -7) +
-          ' | Description');
-  WriteLn(DupeString('-', maxNameLen +1) + '|' +
-          DupeString('-', maxCmdLen +2)  + '|' +
-          DupeString('-', maxDescLen +1));
+  WriteLn('┌' +
+          DupeString('─', maxCmdLen + maxCatLen + maxDescLen + 2) +
+          '┐');
+
+  WriteLn('│Command'    + PadRight('', maxCmdLen -7)   + '│' +
+          'Category'    + PadRight('', maxCatLen  -8)  + '│' +
+          'Description' + PadRight('', maxDescLen -11) + '│');
+
+  WriteLn('│' +
+          DupeString('─', maxCmdLen + maxCatLen + maxDescLen + 2) +
+          '│');
 
   // print commands
   for i := Low(data) to High(data) do
   begin
-    WriteLn(data[i].name + PadRight(' ', maxNameLen - Length(data[i].name) +1) + '| ' +
-            data[i].cmd  + PadRight(' ', maxCmdLen  - Length(data[i].cmd)  +1) + '| ' +
-            data[i].desc);
+    WriteLn('│' +
+            data[i].cmd  + PadRight('', maxCmdLen  - Length(data[i].cmd))  + '│' +
+            data[i].cat  + PadRight('', maxCatLen  - Length(data[i].cat))  + '│' +
+            data[i].desc + PadRight('', maxDescLen - Length(data[i].desc)) + '│');
   end;
+
+  // print footer
+  WriteLn('└' +
+          DupeString('─', maxCmdLen + maxCatLen + maxDescLen + 2) +
+          '┘');
 end;
 
 var
@@ -271,4 +284,3 @@ begin
   Application.Run;
   Application.Free;
 end.
-

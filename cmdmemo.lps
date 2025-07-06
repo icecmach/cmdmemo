@@ -8,8 +8,9 @@
         <Filename Value="cmdmemo.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="54" Y="8"/>
-        <UsageCount Value="38"/>
+        <TopLine Value="184"/>
+        <CursorPos X="36" Y="212"/>
+        <UsageCount Value="40"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -109,46 +110,6 @@
     <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="cmdmemo.lpr"/>
-        <Caret Line="61" Column="23" TopLine="41"/>
-      </Position>
-      <Position>
-        <Filename Value="cmdmemo.lpr"/>
-        <Caret Line="24" TopLine="7"/>
-      </Position>
-      <Position>
-        <Filename Value="cmdmemo.lpr"/>
-        <Caret Line="169" Column="3" TopLine="139"/>
-      </Position>
-      <Position>
-        <Filename Value="cmdmemo.lpr"/>
-        <Caret Line="164" Column="3" TopLine="144"/>
-      </Position>
-      <Position>
-        <Filename Value="cmdmemo.lpr"/>
-        <Caret Line="27" Column="40" TopLine="6"/>
-      </Position>
-      <Position>
-        <Filename Value="cmdmemo.lpr"/>
-        <Caret Line="185" Column="17" TopLine="166"/>
-      </Position>
-      <Position>
-        <Filename Value="cmdmemo.lpr"/>
-        <Caret Line="163" Column="18" TopLine="131"/>
-      </Position>
-      <Position>
-        <Filename Value="cmdmemo.lpr"/>
-        <Caret Line="145" Column="20" TopLine="121"/>
-      </Position>
-      <Position>
-        <Filename Value="cmdmemo.lpr"/>
-        <Caret Line="147" Column="43" TopLine="124"/>
-      </Position>
-      <Position>
-        <Filename Value="cmdmemo.lpr"/>
-        <Caret Line="140" Column="21" TopLine="109"/>
-      </Position>
-      <Position>
-        <Filename Value="cmdmemo.lpr"/>
         <Caret Line="129" Column="19" TopLine="104"/>
       </Position>
       <Position>
@@ -227,10 +188,50 @@
         <Filename Value="cmdmemo.lpr"/>
         <Caret Line="84" TopLine="60"/>
       </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="8" Column="54" TopLine="113"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="25" Column="17" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="251" Column="42" TopLine="222"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="252" Column="27" TopLine="225"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="250" Column="59" TopLine="227"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="255" Column="42" TopLine="227"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="30" Column="12" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="31" Column="8" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="30" Column="8" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="cmdmemo.lpr"/>
+        <Caret Line="194" Column="12" TopLine="171"/>
+      </Position>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
-      <Modes ActiveMode="help">
+      <Modes ActiveMode="list systemd">
         <Mode Name="default"/>
         <Mode Name="add">
           <local>
